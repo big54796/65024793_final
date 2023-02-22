@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <h2>
+        <link rel="stylesheet" href="data.css">
+    </h2>
+    <h3>
+        Insert data
+    </h3>
+</head>
+<body>
+    <div class="form-group">
+        <input type="text" placeholder="ชื่อ">
+        <div class="bio">
+            <input type="text" placeholder="นามสกุล">
+            <div class="bio">
+                <div>
+                    <select multiple="">
+                        <option>ไม่ระบุ</option>
+                        <option>ชาย</option>
+                        <option>หญิง</option>
+                    </select>
+                    <div class="bio">
+                        <input type="date" id="birthday" onchange="selectBirthday()">
+<div id="result"></div>
+<div>
+    <button type="submit">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
